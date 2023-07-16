@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overscroll-behavior: none;
+    overflow-x: hidden;
+}
+.container{
+    overscroll-behavior: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    min-height: 100vh;
+    width: fit-content;
+    /* flex-wrap: wrap; */
+    padding: 0 50px;
+    background: #3c4352;
+    /* overflow-x: hidden; */
+}
+.boxImage{
+    /* width: calc(100% / 4 - 40px); */
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
